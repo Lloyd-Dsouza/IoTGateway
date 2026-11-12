@@ -3,7 +3,7 @@
 public typealias DeviceID = String
 
 public enum DeviceKind: String, Sendable, Equatable {
-    case hvac, tempHumidity, gateway
+    case hvac, tempHumidity, gateway, airQuality
 }
 
 public enum ConnectionStatus: String, Sendable, Equatable {

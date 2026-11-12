@@ -34,6 +34,14 @@ const String kSeedDevicesJson = '''
     "metrics": [
       {"kind": "powerConsumption", "value": 4.2, "unit": "W"}
     ]
+  },
+  {
+    "id": "GW1008", "name": "Air Purifier", "kind": "airQuality",
+    "connection": "online", "batteryPercent": null, "signalDbm": -45,
+    "samplingRateSeconds": 5, "isPoweredOn": true, "targetTemperature": null,
+    "metrics": [
+      {"kind": "powerConsumption", "value": 4.2, "unit": "W"}
+    ]
   }
 ]
 ''';

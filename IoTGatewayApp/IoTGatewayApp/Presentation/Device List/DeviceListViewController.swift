@@ -246,6 +246,7 @@ extension DeviceKind {
         case .hvac: AppStrings.DeviceList.hvac
         case .tempHumidity: AppStrings.DeviceList.temperatureHumidity
         case .gateway: AppStrings.DeviceList.gateway
+        case .airQuality: AppStrings.DeviceList.airQuality
         }
     }
 }

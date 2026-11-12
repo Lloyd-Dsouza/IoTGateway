@@ -7,6 +7,7 @@ enum AppStrings {
         static let retry = "Retry"
         static let hvac = "HVAC"
         static let temperatureHumidity = "Temp & Humidity"
+        static let airQuality = "Air Quality"
         static let gateway = "Gateway"
         static func battery(_ percent: Int) -> String { "Battery \(percent)%" }
     }
